@@ -23,7 +23,7 @@ $ npm run generate
 Clone repo and in root run:
 
 ```
-docker run -it -v $(pwd):/project node bash
+docker run -it -p 3000:3000 -v $(pwd):/project node bash
 cd /project
 npm install
 npm run dev
