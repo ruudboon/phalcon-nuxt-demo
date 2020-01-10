@@ -6,7 +6,7 @@
 
 ``` bash
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -25,7 +25,7 @@ Clone repo and in root run:
 ```
 docker run -it -p 3000:3000 -v $(pwd):/project node bash
 cd /project
-npm run install
+npm install
 npm run dev
 ```
 Goto http://localhost:3000 in your browser.
