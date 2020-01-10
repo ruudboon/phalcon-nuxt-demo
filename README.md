@@ -25,7 +25,7 @@ Clone repo and in root run:
 ```
 docker run -it -p 3000:3000 -v $(pwd):/project node bash
 cd /project
-npm install
+npm run install
 npm run dev
 ```
 Goto http://localhost:3000 in your browser.
