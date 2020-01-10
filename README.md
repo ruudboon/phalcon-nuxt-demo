@@ -19,4 +19,15 @@ $ npm run start
 $ npm run generate
 ```
 
+## Docker setup
+Clone repo and in root run:
+
+```
+docker run -it -v $(pwd):/project node bash
+cd /project
+npm install
+npm run dev
+```
+Goto http://localhost:3000 in your browser.
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
